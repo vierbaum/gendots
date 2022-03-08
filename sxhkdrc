@@ -1,0 +1,56 @@
+super + Return
+       tabbed -r 2 st -w '' -e zsh
+
+super + r
+      ~/.config/rofi/launchers/colorful/launcher.sh
+
+super + v
+      ~/.config/rofi/applets/menu/powermenu.sh
+
+super + c
+      ~/.config/rofi/applets/menu/backlight.sh
+
+super + m
+      ~/.config/rofi/applets/menu/battery.sh
+
+super + n
+      ~/.config/rofi/applets/menu/network.sh
+
+super + u
+      ~/.config/rofi/applets/menu/time.sh
+
+super + z
+      ~/.config/rofi/applets/menu/volume.sh
+
+super + t
+      ~/.config/rofi/applets/menu/mpd.sh
+
+super + p
+      dmenu_run -x 6 -y 6 -z 1354 -h 20
+
+super + a
+      feh --bg-scale ~/Documents/Pictures/wallpaper/ --randomize --no-fehbg
+
+super + o
+      bash dmenu.sh
+
+super + e
+      emacs
+
+super + shift + e
+      nautilus
+
+mod1+ shift + e
+      st -e ranger
+
+super + shift + d
+      discocss
+
+super + shift + s
+      flameshot gui
+
+super + d; {y,t,r,a,m, Return}
+      ~/.config/firefox/firefox --new-tab {https://youtube.com, https://twitter.com, https://reddit.com, https://wiki.archlinux.org, https://moodle.pfarrwiesen.de, }
+
+super + d ; super + {y,t,r,a,m}
+      ~/.config/firefox/firefox --new-window {https://youtube.com, https://twitter.com, https://reddit.com, https://wiki.archlinux.org, https://moodle.pfarrwiesen.de}
